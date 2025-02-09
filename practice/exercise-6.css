@@ -1,0 +1,12 @@
+p{
+  text-align: center;
+  font-family: montserrat;
+}
+.header{
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.underline{
+  text-decoration: underline;
+}

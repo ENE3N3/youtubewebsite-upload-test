@@ -1,0 +1,107 @@
+.Request {
+  background-color: black;
+  height: 40px;
+  width: 110px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+.Request:hover {
+  opacity: 0.8;
+}
+.Add {
+  background-color: rgb(255, 216, 20);
+  height: 30px;
+  width: 140px;
+  color: black;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+.Add:hover {
+  background-color: rgb(234, 184, 21);
+}
+.Sign {
+  background-color: rgb(46, 164, 79);
+  color: white;
+  height: 40px;
+  width: 90px;
+  border-radius: 6px;
+  border: none;
+  font-weight: bold;
+  font-size: 15 px;
+  cursor: pointer;
+  transition: box-shadow 0.15s;
+}
+.Sign:hover {
+  box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.Get {
+  background-color: rgb(121, 83, 179);
+  color: white;
+  height: 40px;
+  width: 110px;
+  border-radius: 4px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: Background-color 0.5s;
+}
+.Get:hover {
+  background-color: rgb(69, 20, 142);
+}
+.Download {
+  background-color: white;
+  color: rgb(108, 117, 125);
+  height: 40px;
+  width: 100px;
+  border-color: rgb(108, 117, 125);
+  border-style: solid;
+  border-radius: 4px;
+  border-width: 1px;
+  cursor: pointer;
+  transition: background-color 0.5s;
+  transition: color 0.5s;
+}
+.Download:hover {
+  background-color: rgb(108, 117, 125);
+  color: white;
+}
+.Apply {
+  background-color: rgb(10, 102, 194);
+  height: 40px;
+  width: 240px;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 8px;
+  transition: background-color 0.5s;
+}
+.Apply:hover {
+  background-color: rgb(9, 71, 132);
+}
+.Save {
+  background-color: white;
+  color: rgb(10, 102, 194);
+  height: 40px;
+  width: 80px;
+  border-radius: 20px;
+  border-color: rgb(10, 102, 194);
+  border-style: solid;
+  font-size: 15px;
+  border-width: 1px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 8px;
+  transition: border-width 0.5s;
+  transition: background-color 0.5s;
+}
+.Save:hover {
+  background-color: rgb(207, 234, 255);
+  border-width: 3px;
+}

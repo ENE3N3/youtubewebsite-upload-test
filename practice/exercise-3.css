@@ -1,0 +1,49 @@
+.Link {
+  color: rgb(0, 113, 133);
+}
+.Link:hover {
+  color: orange;
+}
+.Title {
+  font-size: 24px;
+  font-weight: bold;
+}
+.Price {
+  color: rgb(0, 118, 0);
+  font-weight: bold;
+}
+.Cart {
+  background-color: rgb(255, 216, 20);
+  color: black;
+  border-radius: 15px;
+  height: 30px;
+  width: 110px;
+  border: none;
+  margin-right: 8px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+  transition: background-color 0.15s;
+}
+.Cart:hover {
+  background-color: rgb(235, 200, 0);
+}
+.Cart:active {
+  opacity: 0.4;
+}
+.Buy {
+  background-color: rgb(255, 164, 28);
+  color: black;
+  border-radius: 15px;
+  height: 30px;
+  width: 110px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.15s;
+  transition: opacity 0.15s;
+}
+.Buy:hover {
+  background-color: rgb(255, 145, 0);
+}
+.Buy:active {
+  opacity: 0.4;
+}

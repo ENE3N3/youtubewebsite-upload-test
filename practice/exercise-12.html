@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-style: arial;
+        margin: 0;
+        margin-inline: 15px;
+        font-style: arial;
+      }
+      .flexone {
+        display: flex;
+        margin-bottom: 50px;
+      }
+      .text {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 10px;
+        flex-direction: row;
+        align-items: center;
+      }
+      .not {
+        background-color: rgb(37, 95, 255);
+        border-radius: 50px;
+        color: white;
+        border-style: none;
+        padding: 3px 10px;
+      }
+      .border {
+        border-color: gray;
+        width: 300px;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 6px;
+        margin-bottom: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flexone">
+      <div style="background-color: lightblue; width: 200px">200px</div>
+      <div style="background-color: lightpink; width: 75px">75px</div>
+    </div>
+
+    <div class="flexone">
+      <div style="background-color: lightblue; width: 50px">item1</div>
+      <div style="background-color: lightpink; flex: 1">item2</div>
+      <div style="background-color: lightblue; width: 75px">item3</div>
+    </div>
+
+    <div
+      style="display: flex; margin-bottom: 50px; justify-content: space-between"
+    >
+      <div style="background-color: lightpink">item1</div>
+      <div style="background-color: lightpink">item2</div>
+      <div style="background-color: lightpink">item3</div>
+      <div style="background-color: lightpink">item4</div>
+    </div>
+
+    <div
+      style="
+        border-color: gray;
+        border-width: 1px;
+        border-style: solid;
+        padding-block: 10px;
+        display: flex;
+        margin-bottom: 50px;
+        justify-content: space-between;
+      "
+    >
+      <div style="background-color: lightpink">item1</div>
+      <div style="background-color: lightpink">item2</div>
+    </div>
+
+    <div class="border">
+      <div class="text">
+        <div>Home</div>
+        <div class="not">14</div>
+      </div>
+      <div class="text">
+        <div>Notifications</div>
+        <div class="not">3</div>
+      </div>
+      <div class="text">
+        <div>Messages</div>
+        <div class="not">5</div>
+      </div>
+    </div>
+
+    <div
+      style="
+        align-items: center;
+        background-color: rgb(133, 103, 187);
+        width: auto;
+        height: 50px;
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      "
+    >
+      <div style="color: white; margin-inline: 10px">Home</div>
+
+      <input
+        style="
+          width: 500px;
+          margin-inline: 10px;
+          border-radius: 50px;
+          border-style: solid;
+          padding: 5px 10px;
+        "
+        type="text"
+        placeholder="Search..."
+      />
+      <button
+        style="
+          margin-inline: 10px;
+          border-width: 1px;
+          border-color: rgb(218, 201, 249);
+          border-style: solid;
+          background-color: rgb(133, 103, 187);
+          color: white;
+          padding: 5px 5px;
+        "
+      >
+        Download
+      </button>
+    </div>
+
+    <div
+      style="
+        margin-bottom: 20px;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+      "
+    >
+      <img
+        style="
+          border-radius: 50px;
+          margin-right: 15px;
+          width: 50px;
+          object-fit: cover;
+          height: 50px;
+        "
+        src="sanrio.webp"
+        alt="pfp"
+      />
+      <div style="width: 200px">
+        <p style="font-weight: bold; margin-top: 0px; margin-bottom: 3px;">oliver</p>
+        <p style="color: gray; margin-top: 0px; margin-bottom: 5px;">the cat</p>
+        <p style="font-size: 14px; color: gray; margin-top: 0px; margin-bottom: 5px;">Popular</p>
+      </div>
+      <button style="font-size: 14px; padding: 7px 10px; font-weight: bold; border-radius: 5px; border-style: none; background-color: rgb(55, 155, 255); color: white;">Follow</button>
+    </div>
+    <div
+    style="
+      margin-bottom: 20px;
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+    "
+  >
+    <img
+      style="
+        border-radius: 50px;
+        margin-right: 15px;
+        width: 50px;
+        object-fit: cover;
+        height: 50px;
+      "
+      src="kuromi.png"
+      alt="pfp"
+    />
+    <div style="width: 200px">
+      <p style="font-weight: bold; margin-top: 0px; margin-bottom: 3px;">Mimi</p>
+      <p style="color: gray; margin-top: 0px; margin-bottom: 5px;">Sleepy Cat</p>
+      <p style="font-size: 14px; color: gray; margin-top: 0px; margin-bottom: 5px;">Popular</p>
+    </div>
+    <button style="font-size: 14px; padding: 7px 10px; font-weight: bold; border-radius: 5px; border-style: none; background-color: rgb(55, 155, 255); color: white;">Follow</button>
+  </div>
+  <div
+  style="
+    margin-bottom: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+  "
+>
+  <img
+    style="
+      border-radius: 50px;
+      margin-right: 15px;
+      width: 50px;
+      object-fit: cover;
+      height: 50px;
+    "
+    src="melody.png"
+    alt="pfp"
+  />
+  <div style="width: 200px">
+    <p style="font-weight: bold; margin-top: 0px; margin-bottom: 3px;">Rex</p>
+    <p style="color: gray; margin-top: 0px; margin-bottom: 5px;">Happy Bulldog</p>
+    <p style="font-size: 14px; color: gray; margin-top: 0px; margin-bottom: 5px;">Popular</p>
+  </div>
+  <button style="font-size: 14px; padding: 7px 10px; font-weight: bold; border-radius: 5px; border-style: none; background-color: rgb(55, 155, 255); color: white;">Follow</button>
+</div>
+  </body>
+</html>

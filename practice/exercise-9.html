@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>exercise-9</title>
+    <style>
+      .div {
+        background-color: rgb(255, 167, 167);
+        height: 100px;
+        width: 100px;
+        margin-right: 10px;
+        display: inline-block;
+      }
+      .divb {
+        background-color: rgb(95, 202, 68);
+        border-radius: 50px;
+        height: 100px;
+        width: 100px;
+        display: inline-block;
+      }
+      .divc {
+        border-color: black;
+        border-style: solid;
+        border-width: 1px;
+        padding: 10px 10px;
+        height: 100px;
+        width: 300px;
+        margin-bottom: 10px;
+      }
+      .divd {
+        background-color: rgb(32, 32, 32);
+        border-width: 1px;
+        padding: 10px 10px;
+        height: 100px;
+        width: 300px;
+        margin-bottom: 15px;
+      }
+      .title {
+        color: white;
+        font-weight: bold;
+      }
+      .p {
+        color: rgb(171, 171, 171);
+        font-size: 12px;
+      }
+      .tweet {
+        border-radius: 50px;
+        background-color: rgb(78, 155, 255);
+        color: white;
+        font-size: 15px;
+        padding: 10px 15px;
+        border: none;
+        font-weight: bold;
+        vertical-align: middle;
+        margin-left: 10px;
+        transition: background-color 0.15s;
+      }
+        .tweet:hover {
+          background-color: rgb(25, 88, 169);
+        }
+      .text {
+        vertical-align: middle;
+        border: none;
+        display: inline-block;
+        width: 210px;
+        margin-left: 10px;
+        padding: 12px 5px;
+      }
+      .pfp {
+        border-radius: 50px;
+        height: 60px;
+        width: 60px;
+        object-fit: cover;
+        vertical-align: middle;
+      }
+      .tweet-div {
+        border-color: rgb(217, 217, 217);
+        width: 400px;
+        border-width: 1px;
+        border-style: solid;
+        padding: 10px 10px;
+        margin-bottom: 50px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+      }
+      .profile {
+        width: 200px;
+        height: 315px;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+        margin-left: 20px;
+        margin-bottom: 50px;
+        display: inline-block;
+        vertical-align: top;
+      }
+      .profilea {
+        display: block;
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        margin-bottom: 12px;
+      }
+      .name {
+        font-weight: bold;
+        margin-left: 10px;
+        margin-bottom: 3px;
+      }
+      .desc {
+        margin-left: 10px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        color: rgb(110, 110, 110);
+        font-size: 15px;
+      }
+      .friend {
+        color: white;
+        background-color: rgb(45, 123, 211);
+        border-color: rgb(177, 177, 177);
+        border-style: solid;
+        border-width: 1px;
+        margin-left: 10px;
+        margin-top: 10px;
+        padding: 5px 10px;
+        border-radius: 5px;
+        transition: background-color 0.15s;
+      }
+      .friend:active {
+        border-color: black;
+        cursor: pointer;
+      }
+        .friend:hover {
+          cursor: pointer;
+          background-color: rgb(13, 56, 106);
+      }
+      .horizontal {
+        display: inline-block;
+      }
+      .icon {
+        height: 30px;
+        vertical-align: middle;
+        margin-left: 10px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="div"></div>
+    <div class="divb"></div>
+    <div class="divc">
+      <p>Satisfied with our service?</p>
+      <button>Yes</button>
+      <button>No</button>
+    </div>
+    <div class="divd">
+      <p class="title">Install YouTube Music</p>
+      <p class="p">
+        Add YouTube Music to your desktop for quick and easy access
+      </p>
+    </div>
+    <div class="tweet-div">
+      <img class="pfp" src="image.jpg" alt="pfp" />
+      <input class="text" type="text" placeholder="What's happening?" />
+      <button class="tweet">Tweet</button>
+    </div>
+
+    <div class="profile">
+      <div><img class="profilea" src="kuromi.png" alt="Melody" /></div>
+      <div>
+        <p class="name">Oliver</p>
+        <div>
+          <div class="horizontal">
+            <img class="icon" src="Sanrio.webp" alt="image" />
+          </div>
+          <div class="horizontal"><p class="desc">2 mutual friends</p></div>
+        </div>
+        <button class="friend">Add Friend</button>
+      </div>
+    </div>
+
+
+    <div class="profile">
+      <div><img class="profilea" src="image.jpg" alt="Melody" /></div>
+      <div>
+        <p class="name">Mimi</p>
+        <div>
+          <div class="horizontal">
+            <img class="icon" src="Sanrio.webp" alt="image" />
+          </div>
+          <div class="horizontal"><p class="desc">3 mutual friends</p></div>
+        </div>
+        <button class="friend">Add Friend</button>
+      </div>
+    </div>
+
+    <div class="profile">
+      <div><img class="profilea" src="Melody.png" alt="Melody" /></div>
+      <div>
+        <p class="name">Rex</p>
+        <div>
+          <div class="horizontal">
+            <img class="icon" src="Sanrio.webp" alt="image" />
+          </div>
+          <div class="horizontal"><p class="desc">4 mutual friends</p></div>
+        </div>
+        <button class="friend">Add Friend</button>
+      </div>
+    </div>
+
+  </body>
+</html>
